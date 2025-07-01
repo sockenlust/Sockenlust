@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #111;
+  text-align: center;
+}
+
+.centered {
+  margin-top: 20vh;
+}
+
+.highlight {
+  color: hotpink;
+}
+
+button {
+  padding: 12px 24px;
+  background: hotpink;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.product {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+  max-width: 300px;
+}
